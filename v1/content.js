@@ -1,0 +1,1 @@
+console.log("Canvas extension loaded!");
