@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Canvas Cleaner",
+  "version": "3.0",
+  "description": "Canvas workshop extension",
+  "content_scripts": [
+    {
+      "matches": ["https://*.instructure.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}
